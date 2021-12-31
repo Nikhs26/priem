@@ -1,0 +1,8 @@
+git stash save "msg type"
+git stash list 
+git stash apply <stash id>
+git stash drop <stash id>
+git stash clear
+git stash show
+git stash show -p
+git stash branch <branch_name> ==> To transfer the stash work in new branch name to save conflict your work
