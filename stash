@@ -6,3 +6,4 @@ git stash clear
 git stash show
 git stash show -p
 git stash branch <branch_name> ==> To transfer the stash work in new branch name to save conflict your work
+git stash pop => The git stash pop command is quite similar to git stash apply. The main difference between both of these commands is stash pop command that deletes the stash from the stack after it is applied.
