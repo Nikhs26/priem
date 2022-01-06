@@ -6,3 +6,4 @@ read -p "Enter second number: " y
 z=$(($x+$y))
 
 echo $z
+sleep 10
